@@ -62,7 +62,7 @@ export default function ContactForm() {
               placeholder="Kartik Hajbe"
               required
               disabled={isLoading}
-              className="w-full px-4 py-3 bg-card/50 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300 disabled:opacity-50"
+              className="w-full px-4 py-3 bg-card/50 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff0000] focus:border-transparent transition-all duration-300 disabled:opacity-50"
             />
           </div>
 
@@ -78,7 +78,7 @@ export default function ContactForm() {
               placeholder="your@email.com"
               required
               disabled={isLoading}
-              className="w-full px-4 py-3 bg-card/50 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300 disabled:opacity-50"
+              className="w-full px-4 py-3 bg-card/50 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff0000] focus:border-transparent transition-all duration-300 disabled:opacity-50"
             />
           </div>
         </div>
@@ -95,7 +95,7 @@ export default function ContactForm() {
             placeholder="Collaboration Request"
             required
             disabled={isLoading}
-            className="w-full px-4 py-3 bg-card/50 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300 disabled:opacity-50"
+            className="w-full px-4 py-3 bg-card/50 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff0000] focus:border-transparent transition-all duration-300 disabled:opacity-50"
           />
         </div>
 
@@ -111,7 +111,7 @@ export default function ContactForm() {
             rows={6}
             required
             disabled={isLoading}
-            className="w-full px-4 py-3 bg-card/50 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300 resize-none disabled:opacity-50"
+            className="w-full px-4 py-3 bg-card/50 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff0000] focus:border-transparent transition-all duration-300 resize-none disabled:opacity-50"
           />
         </div>
 
@@ -136,11 +136,11 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={isLoading}
-          className="w-full px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 font-medium flex items-center justify-center gap-2 hover:shadow-lg hover:shadow-primary/30 group animate-in fade-in slide-in-from-bottom-4 duration-700 delay-400"
+          className="w-full px-6 py-3 bg-[#ff0000] text-[#ff0000]-foreground rounded-lg hover:bg-[#ff0000]/90 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 font-medium flex items-center justify-center gap-2 hover:shadow-lg hover:shadow-[#ff0000]/30 group animate-in fade-in slide-in-from-bottom-4 duration-700 delay-400"
         >
           {isLoading ? (
             <>
-              <div className="w-4 h-4 border-2 border-primary-foreground border-t-transparent rounded-full animate-spin" />
+              <div className="w-4 h-4 border-2 border-[#ff0000]-foreground border-t-transparent rounded-full animate-spin" />
               Sending...
             </>
           ) : (

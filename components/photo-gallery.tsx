@@ -73,18 +73,29 @@ export default function PhotoGallery() {
       {/* Lightbox Modal with enhanced animations */}
       {selectedPhoto && (
         <div
-          className="fixed inset-0 bg-black/95 z-50 flex items-center justify-center p-4 animate-in fade-in duration-300 backdrop-blur-sm"
+          className="fixed  inset-0 bg-black/95 z-50 flex items-center justify-center p-4 animate-in overflow-y-auto fade-in duration-300 backdrop-blur-sm"
           onClick={() => setSelectedPhoto(null)}
         >
           <div
             className="relative max-w-4xl w-full animate-in zoom-in-95 duration-300"
             onClick={(e) => e.stopPropagation()}
           >
-            <img
+            <div className="flex justify-center">
+            {selectedPhoto.ratio=="square"?<img
+              src={selectedPhoto.src || "/placeholder.svg"}
+              alt={selectedPhoto.alt}
+              className="w-[50%]  rounded-lg"
+            />:<img
               src={selectedPhoto.src || "/placeholder.svg"}
               alt={selectedPhoto.alt}
               className="w-full h-auto rounded-lg"
-            />
+            />}
+            </div>
+            {/* <img
+              src={selectedPhoto.src || "/placeholder.svg"}
+              alt={selectedPhoto.alt}
+              className="w-full h-auto rounded-lg"
+            /> */}
             <div className="mt-4 text-center fade-in-up">
               <p className="text-accent text-sm font-semibold mb-1">{selectedPhoto.category}</p>
               <h2 className="text-white text-2xl font-bold">{selectedPhoto.title}</h2>

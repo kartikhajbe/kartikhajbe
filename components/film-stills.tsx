@@ -41,7 +41,7 @@ export default function FilmStills() {
   return (
     <section
       ref={sectionRef}
-      className="relative py-10 px-4 md:px-8 overflow-hidden bg-gradient-to-b from-background to-background/50"
+      className="relative py-10 px-4 md:px-8 overflow-hidden bg-gradient-to-tr from-gray-900  to-black"
     >
       <div className="absolute inset-0 pointer-events-none opacity-5 mix-blend-multiply animate-grain"></div>
 
@@ -51,7 +51,7 @@ export default function FilmStills() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <h3 className="text-xs uppercase tracking-widest text-foreground/60 mb-3 font-semibold">Visual Frames</h3>
+          <h3 className="text-xs uppercase tracking-widest text-[#ff0000] mb-3 font-semibold">Visual Frames</h3>
           <h2 className="text-4xl md:text-5xl font-gotham font-bold text-foreground">Film & Video Stills</h2>
           <p className="text-foreground/60 mt-3 text-lg font-light">
             Cinematic moments captured across my creative journey
@@ -107,7 +107,7 @@ export default function FilmStills() {
           >
             <button
               onClick={() => setSelectedStill(null)}
-              className="absolute top-4 right-4 text-white hover:text-accent transition-colors z-10 text-2xl"
+              className="absolute top-4 right-4 text-white hover:text-[#ff0000] transition-colors z-10 text-2xl"
             >
               ✕
             </button>

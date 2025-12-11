@@ -24,7 +24,7 @@ export default function Showreel() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="relative py-10 px-4 md:px-8 overflow-hidden">
+    <section ref={sectionRef} className="relative py-10 px-4 md:px-8 overflow-hidden bg-gradient-to-tr from-gray-900  to-black">
       <div className="absolute inset-0 pointer-events-none opacity-5 mix-blend-multiply animate-grain"></div>
 
       <div className="max-w-7xl mx-auto relative z-10">
