@@ -15,8 +15,8 @@ export default function Home() {
       <About />
       <Showreel />
       <ShortFilms />
-      <FilmStills />
       <WorkShowcase />
+      <FilmStills />
       <Contact />
     </main>
   )

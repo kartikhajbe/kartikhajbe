@@ -60,7 +60,6 @@ export default function WorkShowcase() {
             </h2>
             <p className="text-lg text-muted-foreground text-balance max-w-2xl animate-in fade-in slide-in-from-left-4 duration-700 delay-200">
               From intimate talking heads to explosive cinematic sequences, I create diverse content formats that engage
-              and inspire
             </p>
           </div>
 

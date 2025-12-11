@@ -1,6 +1,6 @@
 
 export const heroData ={
-  bgImageUrl:"/cinematic-film-background-with-warm-lighting.jpg",
+  bgImageUrl:"https://res.cloudinary.com/ddgybxun8/image/upload/v1765444186/1764137723115_1_fdzzpd.jpg",
   title:"Kartik Hajbe",
   subtitle:"Visual Storyteller",
   roles:"Filmmaker · Cinematographer · Editor · Photographer",
@@ -36,7 +36,7 @@ export const shortFilms: ShortFilm[] = [
     description:
       "A compelling short film about an engineering student who's not serious about coding, until a realization strikes when his friend mocks him. A story of personal growth and unexpected motivation.",
     roles: ["Writer", "Director", "DOP", "Editor"],
-    image: "/coding-engineer-motivated-short-film.jpg",
+    image: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765444975/byte_by_byte_3x-min_tckoro.jpg",
   },
   {
     id: "forgotten-joy",
@@ -45,7 +45,7 @@ export const shortFilms: ShortFilm[] = [
     description:
       "A poignant Marathi short film exploring the story of a 22-year-old hostel student battling gambling app addiction. When life happens outside the phone screen, everything changes in an instant.",
     roles: ["Co-Writer", "Director", "DOP", "Editor"],
-    image: "/hostel-student-phone-addiction-marathi-film.jpg",
+    image: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765445082/poster_2_shy0rd.png",
   },
 ]
 
@@ -67,9 +67,9 @@ export const stillData: Still[] = [
   },
   {
     id: "2",
-    image: "/cinematic-hostel-room-dramatic-scene.jpg",
-    title: "The Forgotten Joy - Hostel Room",
-    project: "The Forgotten Joy",
+    image: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765445256/DSC_0141_m2lnbx.jpg",
+    title: "Unreleased Project",
+    project: "Unreleased Project",
     category: "short-film",
   },
   {

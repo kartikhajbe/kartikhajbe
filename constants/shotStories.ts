@@ -8,7 +8,9 @@ interface FilmDetails {
   heroImage: string
   category: string
   releaseDate: string,
-  stills?: string[]
+  stills?: string[],
+  writer?: string[],
+  cast?: string[],
 }
 
 export const filmsData: Record<string, FilmDetails> = {
@@ -20,8 +22,8 @@ export const filmsData: Record<string, FilmDetails> = {
     longDescription:
       "A compelling narrative exploring the journey of self-realization. Byte by Byte follows an engineering student through a transformative moment that challenges his perspective on dedication and passion. Through cinematic storytelling and emotional depth, the film captures the essence of personal growth and the impact of peer relationships.",
     roles: ["Writer", "Director", "DOP", "Editor"],
-    youtubeId: "dQw4w9WgXcQ",
-    heroImage: "/byte-by-byte-short-film-engineering-student.jpg",
+    youtubeId: "gRHkTzLP988",
+    heroImage: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765444975/byte_by_byte_3x-min_tckoro.jpg",
     category: "Short Film",
     releaseDate: "2024",
     stills: [
@@ -29,6 +31,8 @@ export const filmsData: Record<string, FilmDetails> = {
       "/placeholder.svg?height=500&width=700",
       "/placeholder.svg?height=500&width=700",
     ],
+    writer:["Kartik Hajbe"],
+    cast:["Yashwant Bhosale","Soham Dalal","Priti Sharma"],
   },
   "the-forgotten-joy": {
     slug: "the-forgotten-joy",
@@ -38,8 +42,8 @@ export const filmsData: Record<string, FilmDetails> = {
     longDescription:
       "A powerful Marathi language short film that explores the dangers of digital addiction and the impact of distraction on real-life relationships. The Forgotten Joy tells the story of a hostel student whose life revolves around gambling apps until a pivotal incident forces him to confront reality. This film is a poignant reminder of what truly matters in life.",
     roles: ["Co-writer", "Director", "DOP", "Editor"],
-    youtubeId: "dQw4w9WgXcQ",
-    heroImage: "/the-forgotten-joy-marathi-film-hostel.jpg",
+    youtubeId: "fdiPAcjZIkU",
+    heroImage: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765445082/poster_2_shy0rd.png",
     category: "Marathi Short Film",
     releaseDate: "2024",
     stills: [
@@ -47,6 +51,9 @@ export const filmsData: Record<string, FilmDetails> = {
       "/placeholder.svg?height=500&width=700",
       "/placeholder.svg?height=500&width=700",
     ],
+    writer:["Vaibhav Shelke","Sidhant Manale","Kartik Hajbe","Chaitanya Paraye","Pratapsinh Misal","Prasad Dinnapurkar"],
+    cast:["Prasad Dinnapurkar","Chaitanya Paraye","Suyog Nagbhide","Vaibhav Shelke","Sidhant Manale","Pratapsinh Misal","Yashwant Bhosale"],
+
   },
 }
 
