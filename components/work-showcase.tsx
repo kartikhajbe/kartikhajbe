@@ -49,7 +49,7 @@ export default function WorkShowcase() {
 
   return (
     <>
-      <section id="work" className="py-20 px-4 sm:px-6 lg:px-8 bg-card/50" ref={sectionRef}>
+      <section id="work" className="py-15 px-4 sm:px-6 lg:px-8 bg-card/50" ref={sectionRef}>
         <div className="max-w-6xl mx-auto">
           <div className="mb-16">
             <p className="text-[#ff0000] text-sm font-semibold uppercase tracking-wider mb-2 animate-in fade-in duration-700">

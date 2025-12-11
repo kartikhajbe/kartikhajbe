@@ -29,20 +29,20 @@ export default function ShortFilms() {
   }, [])
 
   return (
-    <section id="short-films" className="py-20 px-4 sm:px-6 lg:px-8 relative" ref={sectionRef}>
+    <section id="short-films" className="py-10 px-4 sm:px-6 lg:px-8 relative" ref={sectionRef}>
       <div className="absolute inset-0 pointer-events-none opacity-5 mix-blend-multiply animate-grain"></div>
 
       <div className="max-w-6xl mx-auto relative z-10">
-        <div className="mb-16">
+        <div className="mb-8">
           <p className="text-[#ff0000] text-sm font-semibold uppercase tracking-wider mb-2 animate-in fade-in duration-700">
             Featured Work
           </p>
-          <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-balance font-gotham animate-in fade-in slide-in-from-left-4 duration-700 delay-100">
+          <h2 className="text-4xl sm:text-5xl font-bold mb-0 text-balance font-gotham animate-in fade-in slide-in-from-left-4 duration-700 delay-100">
             Short Films
           </h2>
-          <p className="text-lg text-foreground/70 text-balance max-w-2xl font-light animate-in fade-in slide-in-from-left-4 duration-700 delay-200">
+          {/* <p className="text-lg text-foreground/70 text-balance max-w-2xl font-light animate-in fade-in slide-in-from-left-4 duration-700 delay-200">
             Compelling stories crafted with cinematic vision, each showcasing different aspects of filmmaking mastery
-          </p>
+          </p> */}
           <div className="w-20 h-1 bg-[#ff0000] mt-4 animate-in fade-in duration-700 delay-300"></div>
         </div>
 

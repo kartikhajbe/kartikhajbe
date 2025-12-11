@@ -15,7 +15,7 @@ export const aboutData ={
 } as const;
 
 export const showreelData = {
-    videoUrl: "https://youtu.be/43Hvzd7_vhE?si=vHtx71nNdVOCvjBP",
+    videoUrl: "https://youtu.be/gRHkTzLP988?si=rjyGj-Uqvy0LY_iO",
     thumbnailUrl: "/cinematic-still-moment-dramatic-lighting.jpg",
 } as const;
 
