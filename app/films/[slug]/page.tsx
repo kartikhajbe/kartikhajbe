@@ -115,20 +115,32 @@ export default function FilmPage({ params }: { params: Promise<{ slug: string }>
 
               {/* Social links */}
               <div className="p-6 border border-foreground/20 rounded-sm">
-                <h4 className="text-xs uppercase tracking-widest text-foreground/60 mb-4 font-semibold">Share</h4>
-                <div className="flex gap-3">
-                  <a
-                    href="#"
-                    className="w-10 h-10 rounded-sm border border-foreground/30 flex items-center justify-center hover:bg-accent hover:border-accent hover:text-background transition-all text-sm font-medium"
-                  >
-                    f
-                  </a>
-                  <a
-                    href="#"
-                    className="w-10 h-10 rounded-sm border border-foreground/30 flex items-center justify-center hover:bg-accent hover:border-accent hover:text-background transition-all text-sm font-medium"
-                  >
-                    𝕏
-                  </a>
+                <h4 className="text-xs uppercase tracking-widest text-foreground/60 mb-4 font-semibold">Credits</h4>
+                <div className="flex justify-between ">
+                  <div>
+                    <h3 className="text-xs uppercase tracking-widest text-foreground/60 mb-4 font-semibold">
+                      Writer
+                    </h3>
+                    <ul className="text-foreground/70 text-sm leading-relaxed font-light">
+                    {film.writer?.map((write: string, idx: number)=>(
+                      <li>
+                      {write}
+                      </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-xs uppercase tracking-widest text-foreground/60 mb-4 font-semibold">
+                      Cast
+                    </h3>
+                    <ul className="text-foreground/70 text-sm leading-relaxed font-light">
+                     {film.cast?.map((cs: string, idx: number)=>(
+                      <li>
+                      {cs}
+                      </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>

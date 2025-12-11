@@ -18,45 +18,21 @@ export const contentCategoriesData: ContentCategory[] = [
   {
     id: "shorts",
     title: "Short Films",
-    count: 12,
+    count: 2,
     emoji: "🎬",
     color: "from-rose-500 to-pink-500",
     videos: [
       {
         id: "1",
         title: "Byte by Byte",
-        thumbnail: "/short-film-coding-engineering-student.jpg",
+        thumbnail: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765444975/byte_by_byte_3x-min_tckoro.jpg",
         link: "/films/byte-by-byte",
       },
       {
         id: "2",
         title: "The Forgotten Joy",
-        thumbnail: "/marathi-film-hostel-student.jpg",
+        thumbnail: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765445082/poster_2_shy0rd.png",
         link: "/films/the-forgotten-joy",
-      },
-      {
-        id: "3",
-        title: "Urban Stories",
-        thumbnail: "/cinematic-short-film.jpg",
-        link: "#",
-      },
-      {
-        id: "4",
-        title: "Lost Moments",
-        thumbnail: "/dramatic-short-film.jpg",
-        link: "#",
-      },
-      {
-        id: "5",
-        title: "Echoes",
-        thumbnail: "/indie-short-film.jpg",
-        link: "#",
-      },
-      {
-        id: "6",
-        title: "Midnight Tales",
-        thumbnail: "/cinematic-storytelling.jpg",
-        link: "#",
       },
     ],
   },
