@@ -49,7 +49,7 @@ export default function About() {
   }, [])
 
   return (
-    <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-card/50" ref={sectionRef}>
+    <section id="about" className="py-10 px-4 sm:px-6 lg:px-8 bg-card/50" ref={sectionRef}>
       <div className="max-w-6xl mx-auto">
        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Image - added scale-in animation and hover effects */}
