@@ -135,7 +135,7 @@ export default function Hero() {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center fade-in-up" style={{ animationDelay: "0.6s" }}>
           <a
-            href="#portfolio"
+            href="#work"
             className="px-8 py-3 bg-[#ffffff] text-accent-foreground rounded text-sm font-medium hover:bg-accent/90 smooth-transition hover-lift shadow-lg shadow-accent/30"
             style={{
               fontFamily: "var(--font-roboto-condensed), 'Roboto Condensed', sans-serif",

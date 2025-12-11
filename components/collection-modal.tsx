@@ -22,7 +22,7 @@ interface CollectionModalProps {
 export default function CollectionModal({ isOpen, onClose, categoryTitle, categoryId, videos }: CollectionModalProps) {
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto bg-background border-border/50">
+      <DialogContent className="min-w-[70%] max-h-[90vh] overflow-y-auto bg-background border-border/50">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold text-foreground">{categoryTitle}</DialogTitle>
         </DialogHeader>

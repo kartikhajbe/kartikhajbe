@@ -49,18 +49,18 @@ export default function About() {
   }, [])
 
   return (
-    <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-card/50" ref={sectionRef}>
+    <section id="about" className="py-10 px-4 sm:px-6 lg:px-8 bg-card/50" ref={sectionRef}>
       <div className="max-w-6xl mx-auto">
-       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mb-6">
           {/* Image - added scale-in animation and hover effects */}
           <div
-            className={`relative vignette scale-in ${isVisible ? "" : "opacity-0"}`}
+            className={`relative flex justify-center vignette scale-in ${isVisible ? "" : "opacity-0"}`}
             style={{ animationDelay: "0.2s" }}
           >
             <img
               src={aboutData.profileImageUrl}
               alt="Kartik Hajbe"
-              className="w-full rounded aspect-square object-cover group-hover:scale-105 transition-transform duration-500 shadow-xl shadow-accent/10"
+              className="w-[80%] rounded aspect-square object-cover group-hover:scale-105 transition-transform duration-500 shadow-xl shadow-accent/10"
             />
           </div>
 

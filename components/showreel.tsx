@@ -24,7 +24,7 @@ export default function Showreel() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="relative py-15 px-4 md:px-8 overflow-hidden">
+    <section ref={sectionRef} className="relative py-10 px-4 md:px-8 overflow-hidden">
       <div className="absolute inset-0 pointer-events-none opacity-5 mix-blend-multiply animate-grain"></div>
 
       <div className="max-w-7xl mx-auto relative z-10">
@@ -33,7 +33,7 @@ export default function Showreel() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <h3 className="text-xs uppercase tracking-widest text-foreground/60 mb-3 font-semibold">One of my recent works</h3>
+          <h3 className="text-xs uppercase tracking-widest text-foreground/60 mb-3 font-semibold">  </h3>
           <h2 className="text-4xl md:text-5xl font-gotham font-bold text-foreground">My Showreel</h2>
           <div className="w-20 h-1 bg-[#ff0000] mt-4"></div>
         </div>
@@ -44,13 +44,13 @@ export default function Showreel() {
           }`}
         >
           {/* Cinematic frame effect */}
-          <div className="absolute inset-0  border-4 foreground/20 pointer-events-none z-20 group-hover:border-[#ff0000]/40 transition-colors duration-300 w-[90%] h-[85%] m-auto"></div>
+          <div className="absolute inset-0  border-4 foreground/20 pointer-events-none z-20 group-hover:border-[#ff0000]/40 transition-colors duration-300 w-[60%] h-[85%] m-auto"></div>
 
           {/* Film vignette effect */}
           <div className=" inset-0 bg-gradient-to-r from-black/20 via-transparent to-black/20 pointer-events-none z-10"></div>
 
           {/* Video container with 16:9 aspect ratio */}
-          <div className="aspect-video bg-black rounded-sm overflow-hidde  flex items-center justify-center">
+          <div className="aspect-video bg-black rounded-sm overflow-hidde  flex items-center justify-center w-[72%] h-[72%] m-auto">
             <iframe
               className="w-[80%] h-[80%] object-cover group-hover:scale-102 transition-transform duration-500"
               src="https://www.youtube.com/embed/43Hvzd7_vhE"
@@ -60,9 +60,9 @@ export default function Showreel() {
             ></iframe>
           </div>
           <div className={` mx-16  transition-all duration-1000 delay-200 ${isVisible ? "opacity-100" : "opacity-0"}`}>
-          <p className="text-foreground/70 font-light text-lg leading-relaxed max-w-2xl">
+          {/* <p className="text-foreground/70 font-light text-lg leading-relaxed max-w-2xl">
            Recent work 
-          </p>
+          </p> */}
         </div>
           {/* <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
             <div className="w-20 h-20 rounded-full border-2 border-white/80 flex items-center justify-center backdrop-blur-sm">

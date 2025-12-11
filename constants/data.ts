@@ -11,11 +11,11 @@ export const aboutData ={
     heading:"Creative Storyteller",
     p1:"I'm a fresher filmmaker and cinematographer passionate about capturing compelling visual narratives. With a keen eye for composition and an understanding of cinematic language, I bring stories to life through carefully crafted frames and purposeful editing.",
     p2:"My work spans short films, documentaries, commercial content, and photography—each project driven by a commitment to authenticity and visual excellence.",
-    profileImageUrl:"/cinematic-still-moment-dramatic-lighting.jpg",
+    profileImageUrl:"https://res.cloudinary.com/ddgybxun8/image/upload/v1765398693/post_10_ek3ynt.jpg",
 } as const;
 
 export const showreelData = {
-    videoUrl: "https://youtu.be/43Hvzd7_vhE?si=vHtx71nNdVOCvjBP",
+    videoUrl: "https://youtu.be/gRHkTzLP988?si=rjyGj-Uqvy0LY_iO",
     thumbnailUrl: "/cinematic-still-moment-dramatic-lighting.jpg",
 } as const;
 
