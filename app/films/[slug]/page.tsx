@@ -149,7 +149,7 @@ export default function FilmPage({ params }: { params: Promise<{ slug: string }>
       </div>
       <div className="max-w-6xl mx-auto mt-16 " >
         <h3 className="font-semibold text-sm uppercase tracking-wider mb-8 text-muted-foreground ">
-          Behind the Scenes
+          Behind the Scenes & Frames
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
           {film.stills?.map((still: string, idx: number) => (

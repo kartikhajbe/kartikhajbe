@@ -11,7 +11,7 @@ export const aboutData ={
     heading:"Creative Storyteller",
     p1:"I’m Kartik Hajbe, a filmmaker, cinematographer, director, editor, and visual storyteller passionate about transforming ideas into compelling visuals.",
     p2:"Over the past few years, I’ve directed, shot, and edited short films, music videos, and digital content that reflect my growing voice as a creator. I love exploring diverse visual styles, experimenting with composition and lighting, and finding beauty in simple, honest storytelling. My portfolio is a collection of the stories I’ve lived, observed, and imagined.",
-    profileImageUrl:"https://res.cloudinary.com/ddgybxun8/image/upload/v1765487663/IMG_20250626_173552_ux8ppm.jpg",
+    profileImageUrl:"https://res.cloudinary.com/ddgybxun8/image/upload/v1765487672/Snapchat-223547682_dupelk.jpg",
 } as const;
 
 export const showreelData = {

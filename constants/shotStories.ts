@@ -25,7 +25,7 @@ export const filmsData: Record<string, FilmDetails> = {
     youtubeId: "gRHkTzLP988",
     heroImage: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765444975/byte_by_byte_3x-min_tckoro.jpg",
     category: "Short Film",
-    releaseDate: "2024",
+    releaseDate: "2023",
     stills: [
       "https://res.cloudinary.com/ddgybxun8/image/upload/v1765398697/post_16_jz14oa.jpg",
       "/placeholder.svg?height=500&width=700",
@@ -33,6 +33,27 @@ export const filmsData: Record<string, FilmDetails> = {
     ],
     writer:["Kartik Hajbe"],
     cast:["Yashwant Bhosale","Soham Dalal","Priti Sharma"],
+  },
+  "sutali-bomb": {
+    slug: "sutali-bomb",
+    title: "Sutali Bomb",
+    description:
+      "A spoof of Oppenheimer movie trailer",
+    longDescription:
+      "A Diwali version of Oppenheimer movie called 'Sutali Bomb'",
+    roles: ["Co-writer", "Director", "DOP", "Editor"],
+    youtubeId: "LshIwD_Lc08",
+    heroImage: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765445129/YOUTUBE_thumbnail_22_zxren5.png",
+    category: "Spoof video",
+    releaseDate: "2024",
+    stills: [
+      "https://res.cloudinary.com/ddgybxun8/image/upload/v1765445274/WhatsApp_Image_2025-10-30_at_20.16.08_g2gcbo.jpg",
+      "https://res.cloudinary.com/ddgybxun8/image/upload/v1765539794/Screenshot_403_re6cve.png",
+      "https://res.cloudinary.com/ddgybxun8/image/upload/v1765539387/Screenshot_394_wdvydz.png"
+    ],
+    writer:["Kartik Hajbe","Pratik Hajbe"],
+    cast:["Shree","Siddhant","Bhagatsinh","Rohit"],
+
   },
   "the-forgotten-joy": {
     slug: "the-forgotten-joy",
