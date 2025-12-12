@@ -29,7 +29,7 @@ export default function ShortFilms() {
   }, [])
 
   return (
-    <section id="short-films" className="py-10 px-4 sm:px-6 lg:px-8 relative bg-gradient-to-br from-gray-900  to-black" ref={sectionRef}>
+    <section id="short-films" className="py-10 px-4 sm:px-6 lg:px-8 relative bg-gradient-to-br from-gray-900 via-black to-gray-900" ref={sectionRef}>
       <div className="absolute inset-0 pointer-events-none opacity-5 mix-blend-multiply animate-grain"></div>
 
       <div className="max-w-6xl mx-auto relative z-10">

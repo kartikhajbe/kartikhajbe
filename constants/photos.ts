@@ -50,7 +50,7 @@ export const photosData: Photo[] = [
   },
   {
     id: "5",
-    src: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765398696/post_3_-_aging_hands_iqnzp7.jpg",
+    src: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765534799/post_3_-_aging_hands_sjspp6.jpg",
     alt: "",
     category: "Portrait",
     title: "Ageing",

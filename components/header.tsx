@@ -28,7 +28,7 @@ export default function Header() {
               About
             </Link>
             <Link
-              href="#films"
+              href="#short-films"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
             >
               Films

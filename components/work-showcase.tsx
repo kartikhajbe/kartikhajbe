@@ -49,7 +49,7 @@ export default function WorkShowcase() {
 
   return (
     <>
-      <section id="work" className="py-15 px-4 sm:px-6 lg:px-8 bg-card/50 bg-gradient-to-tr  from-gray-900  to-black" ref={sectionRef}>
+      <section id="work" className="py-15 px-4 sm:px-6 lg:px-8 bg-card/50 bg-gradient-to-tr from-gray-900 via-black to-gray-900" ref={sectionRef}>
         <div className="max-w-6xl mx-auto">
           <div className="mb-16">
             <p className="text-[#ff0000] text-sm font-semibold uppercase tracking-wider mb-2 animate-in fade-in duration-700">
@@ -59,7 +59,10 @@ export default function WorkShowcase() {
               All Types of Content
             </h2>
             <p className="text-lg text-muted-foreground text-balance max-w-2xl animate-in fade-in slide-in-from-left-4 duration-700 delay-200">
-              From intimate talking heads to explosive cinematic sequences, I create diverse content formats that engage
+              From intimate talking heads to explosive cinematic sequences, I create diverse content formats that engage<br/>
+            </p>
+            <p className="text-lg bg-white mt-2 w-[28%] text-center border  rounded-2xl text-slate-800 text-balance max-w-2xl shadow-sm shadow-[#ff0000] hover:border-2 hover:border-[#ff0000]/50 hover:duration-300 animate-smoothIn">
+              All the content below is edited by me
             </p>
           </div>
 

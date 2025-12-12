@@ -8,7 +8,7 @@ const skills = [
   {
     icon: Clapperboard,
     title: "Directing",
-    description: "Creating cinematic vision and guiding creative teams",
+    description: "Short films as well as Social Media content direction",
   },
   {
     icon: Camera,
@@ -49,7 +49,7 @@ export default function About() {
   }, [])
 
   return (
-    <section id="about" className="py-10 px-4 sm:px-6 lg:px-8 bg-black" ref={sectionRef}>
+    <section id="about" className="py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-tl from-gray-900 to-black" ref={sectionRef}>
       <div className="max-w-6xl mx-auto">
        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mb-6">
           {/* Image - added scale-in animation and hover effects */}
@@ -60,14 +60,14 @@ export default function About() {
             <img
               src={aboutData.profileImageUrl}
               alt="Kartik Hajbe"
-              className="w-[80%] rounded aspect-square object-cover group-hover:scale-105 transition-transform duration-500 shadow-xl shadow-accent/10"
+              className="w-[80%] rounded aspect-square object-cover group-hover:scale-105 transition-transform duration-500 shadow-xl shadow-[*ff0000]/10"
             />
           </div>
 
           {/* Text - enhanced animations with staggered children */}
           <div className={`space-y-6 fade-in-up ${isVisible ? "" : "opacity-0"}`} style={{ animationDelay: "0.4s" }}>
             <div className="fade-in-up" style={{ animationDelay: "0.5s" }}>
-              <p className="text-sm text-accent font-semibold mb-2 uppercase tracking-wider">About</p>
+              <p className="text-sm text-[#ff0000] font-semibold mb-2 uppercase tracking-wider">About</p>
               <h2 className="text-4xl font-bold tracking-tighter mb-6">{aboutData.heading}</h2>
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed fade-in-up" style={{ animationDelay: "0.6s" }}>
@@ -79,7 +79,7 @@ export default function About() {
             <div className="pt-4 fade-in-up" style={{ animationDelay: "0.8s" }}>
               <a
                 href="#work"
-                className="text-sm font-medium text-accent hover:text-accent/80 transition-colors inline-flex items-center gap-2 hover-lift"
+                className="text-sm font-medium text-[#ff0000] hover:text-[#ff0000]/80 transition-colors inline-flex items-center gap-2 hover-lift"
               >
                 Explore My Work →
               </a>
