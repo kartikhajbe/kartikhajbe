@@ -51,7 +51,7 @@ export const contentCategoriesData: ContentCategory[] = [
   {
     id: "reels",
     title: "Cinematic Reels",
-    count: 6,
+    count: 8,
     emoji: "🎥",
     color: "from-orange-500 to-red-500",
     videos: [
@@ -108,10 +108,16 @@ export const contentCategoriesData: ContentCategory[] = [
   {
     id: "cinematography",
     title: "Cinematography",
-    count: 35,
+    count: 7,
     emoji: "📹",
     color: "from-amber-500 to-orange-500",
     videos: [
+      {
+        id: "7",
+        title: "Byte by Byte",
+        thumbnail: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765444975/byte_by_byte_3x-min_tckoro.jpg",
+        link: "https://www.youtube.com/watch?v=gRHkTzLP988",
+      },
       {
         id: "1",
         title: "Viral Reel",
@@ -125,22 +131,22 @@ export const contentCategoriesData: ContentCategory[] = [
         link: "https://www.instagram.com/reel/DN1NzniWJmW/",
       },
       {
-        id: "3",
-        title: "La La Land",
-        thumbnail: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765539329/Screenshot_406_btwkqx.png",
-        link: "https://www.instagram.com/reel/DO9NDOqDEn9/",
-      },
-      {
         id: "4",
         title: "Frames of Paithan Dam",
         thumbnail: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765539828/Screenshot_410_xvptyr.png",
-        link: "https://www.instagram.com/reel/C71Xw2FMwBD/",
+        link: "https://www.youtube.com/watch?v=2VeBXZeHaQg",
       },
       {
         id: "5",
         title: "Jagannath Rath Yatra",
         thumbnail: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765552002/Screenshot_411_fqpbjb.png",
         link: "https://youtu.be/epi9kZAp1tQ?si=jnG9BPUD1WM5piAI",
+      },
+      {
+        id: "3",
+        title: "La La Land",
+        thumbnail: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765539329/Screenshot_406_btwkqx.png",
+        link: "https://www.instagram.com/reel/DO9NDOqDEn9/",
       },
       {
         id: "6",
@@ -153,7 +159,7 @@ export const contentCategoriesData: ContentCategory[] = [
   {
     id: "sketches",
     title: "Sketch Videos",
-    count: 21,
+    count: 4,
     emoji: "😄",
     color: "from-purple-500 to-indigo-500",
     videos: [

@@ -4,7 +4,7 @@ export const heroData ={
   title:"Kartik Hajbe",
   subtitle:"Visual Storyteller",
   roles:"Filmmaker · Cinematographer · Editor · Photographer",
-  roles2:"Visual Storyteller · Creative Director · Indie Filmmaker"
+  roles2:"Visual Storyteller · Creative Director · Content Creator"
 
 }
 export const aboutData ={
