@@ -66,10 +66,10 @@ export const photosData: Photo[] = [
   },
   {
     id: "7",
-    src: "/travel-exotic-location.jpg",
-    alt: "Travel photography exotic",
-    category: "Travel",
-    title: "Wanderlust",
+    src: "https://res.cloudinary.com/ddgybxun8/image/upload/v1765565947/IMG_20230415_131358_tjnkeg.jpg",
+    alt: "B&W photo",
+    category: "Portrait",
+    title: "Light from above",
     ratio: "square",
   },
   {

@@ -59,7 +59,7 @@ export default function ContactForm() {
               type="text"
               id="name"
               name="name"
-              placeholder="Kartik Hajbe"
+              placeholder="Enter Your Name"
               required
               disabled={isLoading}
               className="w-full px-4 py-3 bg-card/50 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff0000] focus:border-transparent transition-all duration-300 disabled:opacity-50"
@@ -92,7 +92,7 @@ export default function ContactForm() {
             type="text"
             id="subject"
             name="subject"
-            placeholder="Collaboration Request"
+            placeholder="Subject of Message"
             required
             disabled={isLoading}
             className="w-full px-4 py-3 bg-card/50 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff0000] focus:border-transparent transition-all duration-300 disabled:opacity-50"
