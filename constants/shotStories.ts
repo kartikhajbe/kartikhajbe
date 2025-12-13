@@ -27,9 +27,9 @@ export const filmsData: Record<string, FilmDetails> = {
     category: "Short Film",
     releaseDate: "2023",
     stills: [
-      "https://res.cloudinary.com/ddgybxun8/image/upload/v1765398697/post_16_jz14oa.jpg",
-      "/placeholder.svg?height=500&width=700",
-      "/placeholder.svg?height=500&width=700",
+      "https://res.cloudinary.com/ddgybxun8/image/upload/v1765539947/Screenshot_397_omqed3.png",
+      "https://res.cloudinary.com/ddgybxun8/image/upload/v1765539849/Screenshot_399_zlcsos.png",
+      // "/placeholder.svg?height=500&width=700",
     ],
     writer:["Kartik Hajbe"],
     cast:["Yashwant Bhosale","Soham Dalal","Priti Sharma"],
