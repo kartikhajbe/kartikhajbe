@@ -35,7 +35,7 @@ export default function Showreel() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <h3 className="text-xs uppercase tracking-widest text-white/60 mb-2 md:mb-3 font-semibold">Featured Work</h3>
+          <h3 className="text-xs uppercase tracking-widest text-white/60 mb-2 md:mb-3 font-semibold">One of My Recent Works</h3>
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">My Showreel</h2>
           <div className="w-16 md:w-20 h-1 bg-red-600 mt-3 md:mt-4"></div>
         </div>
